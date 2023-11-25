@@ -8,6 +8,9 @@
         <header>
             <a href="#home">Главная</a>
             <a href="#trenajor">Мы предлагаем</a>
+            <a href="#zapis">Записаться</a>
+            <a href="#prices">Тарифы</a>
+            <a href="#contact">Связь с нами</a>
         </header>
         <header id="home">
             <h1 align="center">Добро пожаловать в Фитнес Клуб "У Петровича"</h1>
@@ -50,82 +53,102 @@
                         <img src="images/640424_900.jpg" alt="">
                     </ul>
             </section>
-        <table width="80%">
-            <tr width="auto">
-                <th>Тариф</th>
-                <th>Тренировок в неделю</th>
-                <th>Цена <br>Месяц/Год</th>
-                <th>Бассеин</th>
-                <th>Сауна</th>
-                <th>Групповые занятия</th>
-            </tr>
-            <tr width="auto">
-                <td>Эконом</td>
-                <td>3</td>
-                <td>2000/20000</td>
-                <td>нет</td>
-                <td>есть</td>
-                <td>нет</td>
-            </tr>
-            <tr width="auto">
-                <td>Уверенный</td>
-                <td>5</td>
-                <td>3500/38000</td>
-                <td>есть</td>
-                <td>есть</td>
-                <td>нет</td>
-            </tr>
-            <tr width="auto">
-                <td>Атлет</td>
-                <td>безлимит</td>
-                <td>5000/52000</td>
-                <td>есть</td>
-                <td>есть</td>
-                <td>есть</td>
-            </tr>
-        </table>
 
-        <form action="">
-            <label for="age"> Возраст:</label>
-            <input type="number" id="age" name="age" placeholder="введите возраст"> <br>
-            <label for="name"> Имя:</label>
-            <input type="text" id="name" name="name" placeholder="введите имя"> <br>
-            <label for="email"> Email:</label>
-            <input type="email" id="email" name="email" placeholder="введите email"> <br>
-            <label for="gender"> Пол: </label>
-            <input type="radio" id="male" name="gender">
-            <label for="male"> Мужчина</label>
-            <input type="radio" id="female" name="gender"> 
-            <label for="female"> Женщина</label> <br>
-            <label for="Tarif">Выберите тариф:</label>
-            <Select name="Tarif" id="Tarif">
-                <option value="Eko">Эконом</option>
-                <option value="Uver">Уверенный</option>
-                <option value="Atlet"> Атлет</option>
-            </Select>
-            <label for="mesyac">
-                <input type="checkbox" name="srok" value="mesyac" id="mesyac"> Месяц</label>
-                <label for="god">
-                    <input type="checkbox" name="srok" value="god" id="god"> Год</label>
-            <button type="submit"> Отправить</button>
-        </form>
-        
-        <h2>Отзывы</h2>
-            <figure>
-                <img src="images/sjxaWqibwqHBZKJbgQA12A.jpeg" alt="otziv">
-                <figcaption>Иосиф Виссарионович</figcaption>
-            </figure>
-            <blockquote>
-                Прекрасный фитнес клуб, на тренировки груди тренер отвлекся и штанга упала теперь занова учусь есть 5/5
-            </blockquote>
-            <aside>
+            <section class="container-tarif" id="prices">
+                <h2 class="sub-heading">Какие есть тарифы?</h2>
+                <p class="text-tarif">У вас есть возможность выбрать понравившийся вам тариф</p>
+                    <table width="80%">
+                        <tr width="auto">
+                            <th>Тариф</th>
+                            <th>Тренировок в неделю</th>
+                            <th>Цена <br>Месяц/Год</th>
+                            <th>Бассеин</th>
+                            <th>Сауна</th>
+                            <th>Групповые занятия</th>
+                        </tr>
+                        <tr width="auto">
+                            <td>Эконом</td>
+                            <td>3</td>
+                            <td>2000/20000</td>
+                            <td>нет</td>
+                            <td>есть</td>
+                            <td>нет</td>
+                        </tr>
+                        <tr width="auto">
+                            <td>Уверенный</td>
+                            <td>5</td>
+                            <td>3500/38000</td>
+                            <td>есть</td>
+                            <td>есть</td>
+                            <td>нет</td>
+                        </tr>
+                        <tr width="auto">
+                            <td>Атлет</td>
+                            <td>безлимит</td>
+                            <td>5000/52000</td>
+                            <td>есть</td>
+                            <td>есть</td>
+                            <td>есть</td>
+                        </tr>
+                    </table>
+            </section>
+
+            <section id="zapis">
+                <h5>Как записаться на пробную тренировку или приобрести абонемент</h5>
+                    <p>Мы предоставляем первую бесплатную тренировку для новых клиентов. 
+                    <br> Заполните поля ниже и наши менеджера свяжутся с вами.</p>
+                <form>
+                    <label for="age"> Возраст:</label>
+                    <input type="number" id="age" name="age" placeholder="введите возраст"> <br>
+                    <label for="name"> Имя:</label>
+                    <input type="text" id="name" name="name" placeholder="введите имя"> <br>
+                    <label for="email"> Email:</label>
+                    <input type="email" id="email" name="email" placeholder="введите email"> <br>
+                    <label for="gender"> Пол: </label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male"> Мужчина</label>
+                    <input type="radio" id="female" name="gender"> 
+                    <label for="female"> Женщина</label> <br>
+                    <label for="Tarif">Выберите тариф:</label>
+                    <Select name="Tarif" id="Tarif">
+                        <option value="Eko">Эконом</option>
+                        <option value="Uver">Уверенный</option>
+                        <option value="Atlet"> Атлет</option>
+                    </Select>
+                    <label for="mesyac">
+                        <input type="checkbox" name="srok" value="mesyac" id="mesyac"> Месяц</label>
+                        <label for="god">
+                            <input type="checkbox" name="srok" value="god" id="god"> Год</label>
+                    <button type="submit"> Отправить</button>
+                </form>
+            </section>
+
+            <section>
+                <h3>Отзывы</h3>
+                    <figure>
+                        <img src="images/sjxaWqibwqHBZKJbgQA12A.jpeg" alt="otziv">
+                        <figcaption>Иосиф Виссарионович</figcaption>
+                    </figure>
+                    <blockquote>
+                        Прекрасный фитнес клуб, на тренировки груди тренер отвлекся и штанга упала теперь занова учусь есть 5/5
+                    </blockquote>
+            </section>
+
+            <aside> 
                 <h2>Наши партнеры</h2>
-                <img src="images/" alt="SportHub">
-                <p>Качественный производитель спортивного питания</p>
-                <img src="images/" alt="StreetFit">
-                <p>Брэнд спортивной одеждый и аксессуаров</p>
+                        <img src="images/" alt="SportHub">
+                        <p>Качественный производитель спортивного питания</p>
+                        <img src="images/" alt="StreetFit">
+                        <p>Брэнд спортивной одеждый и аксессуаров</p>
             </aside>
         </main>
+
+        <address id="contact">
             <a href="https://ru.wikipedia.org/wiki/Голубиная_почта">Свяжитесь с нами </a>
+        </address>
+        
+        <footer>
+            <p>2023, Тренировки в фитнес клубе "У Петровича". Растряси жирок! </p>
+        </footer>
     </body>
 </html>
