@@ -7,25 +7,66 @@
 
 .page-body{
 font-family: "PT Sans", sans-serif;
-font-size: 20px;
+font-size: 46px;
 }
-.page- header{
-font-size: larger;
-font-weight: 700;
+.page-header{
+background-image: url(/images/header.jpg);
+color:;
 }
 .navbar{
-  font-size: large;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
 }
 .navbar-list{
-  font-size: medium;
+  font-size: 16px;
   font-weight: 350;
 }
 .navbar_link{
-  font-size: medium;
+  font-size: 16px;
   font-weight: 350;
 }
 .navbar-item{
-  font-size: medium;
+  font-size: 16px;
   font-weight: 350;
+}
+.page-home{
+  font-size: 24px;
+  font-weight: 100;
+}
+#trenajor{
+  font-size: 100%;
+  font-weight: 200;
+}
+.page-dop{
+  font-size: 21px;
+  font-weight: 410;
+}
+.container-tarif{
+  font-size: 18px;
+  font-weight: 320;
+}
+.sub-heading{
+  font-size: 19px;
+  font-weight: 310;
+}
+.text-tarif{
+  font-size: 25px;
+  font-weight: 410;
+}
+#zapis{
+  font-size: 20px;
+  font-weight: 200;
+}
+.page-otziv{
+  font-size: 20px;
+  font-weight: 150;
+}
+.page-partner{
+  font-size: 18px;
+  font-weight: 100;
+}
+#contact{
+  font-size: 16px;
+  font-weight: 100;
 }
