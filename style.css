@@ -7,7 +7,8 @@
 
 
 .page-body{
-
+  font-size: 18px;
+  font-weight: 350;
 
 }
 .page-header{
@@ -15,7 +16,8 @@
   color: #fff;
 }
 .navbar{
-;
+  font-size: 16px;
+  font-weight: 350;
 }
 .navbar-list{
   font-size: 16px;
@@ -30,7 +32,8 @@
   font-weight: 350;
 }
 .page-home{
-
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .home-h1 {
