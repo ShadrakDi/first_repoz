@@ -10,47 +10,58 @@
         <nav class="navbar">
             <ul class="navbar-list">
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#home">Главная</a></li>
+                    <a class="navbar-link" href="#home">Главная</a>
+                </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#trenajor">Мы предлагаем</a></li>
+                    <a class="navbar-link" href="#trenajor">Мы предлагаем</a>
+                </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#zapis">Записаться</a></li>
+                    <a class="navbar-link" href="#zapis">Записаться</a>
+                </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#prices">Тарифы</a></li>
+                    <a class="navbar-link" href="#prices">Тарифы</a>
+                </li>
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#contact">Связь с нами</a></li>
+                    <a class="navbar-link" href="#contact">Связь с нами</a>
+                </li>
             </ul>
         </nav>
     </header>
     <section class="page-home" id="home">
         <h1 class="home-h1">Добро пожаловать в Фитнес Клуб "У Петровича"</h1>
         <div class="home-div">
-        <img class="home-div-image" src="images/1.jpeg" alt="Лучший зал в мире" width="100%" height="700">
+            <img class="home-div-image" src="images/1.jpeg" alt="Лучший зал в мире" width="100%" height="700">
         </div>
-        <p>В нашем клубе вы встретитесь с передовыми технологиям в опласте спорта, современным оборудованием,
-        квалифицырованными атлетами мирового уровня, которые помогут вам составить нужные и качественные тренировки</p>
+        <div class="intro-text-wrapper">
+            <p>В нашем клубе вы встретитесь с передовыми технологиям в областе спорта, современным оборудованием,
+            квалифицырованными атлетами мирового уровня,
+            которые помогут вам составить нужные и качественные тренировки</p>
+        </div>
     </section>
     <main>
         <section id="trenajor">
-            <h2>Вашему вниманию представлены тренажеры на любые группы мышц</h2>
+            <h2 class="trenajor-title">Вашему вниманию представлены тренажеры на любые группы мышц</h2>
+            <div class="trenajor-text-wrapper">
+                <p>У нас представлены тренажеры:</p>
+            </div>
             <ul>
-                <li>Тренажеры для ног</li>
+                <li class="trenajor-li">Тренажеры для ног</li>
                 <div class="trenajor-div">
                     <img class="trenajor-div-image" src="images/2.jpg" alt="ноги атлета" width="450" height="400">
                 </div>
-                <li>Тренажеры для всех групп мышц</li>
+                <li class="trenajor-li">Тренажеры для всех групп мышц</li>
                 <div class="trenajor-div">
                     <img class="trenajor-div-image" src="images/3.jpg" alt="5 в 1" width="500" height="400">
                 </div>
-                <li>Тренажеры для спины</li>
+                <li class="trenajor-li">Тренажеры для спины</li>
                 <div class="trenajor-div">
                     <img class="trenajor-div-image" src="images/4.jpeg" alt=" кросс" width="500" height="400">
                 </div>
-                <li>Тренажоры для груди</li>
+                <li class="trenajor-li">Тренажоры для груди</li>
                 <div class="trenajor-div">
                     <img class="trenajor-div-image" src="images/5.jpg" alt="грудак" width="500" height="300">
                 </div>
-                <li>Кардио тренажеры</li>
+                <li class="trenajor-li">Кардио тренажеры</li>
                 <div class="trenajor-div">
                     <img class="trenajor-div-image" src="images/6.jpg" alt="кардио" width="500" height="400">
                 </div>
@@ -58,30 +69,34 @@
         </section>
 
         <section class="eshe-dop">
-            <h2 class="eshe-title">Так же у нас вы найдете</h2>
-            <ul>
-                <li>Сауны и бани
-                    <div class="eshe-title-image">
-                        <img class="eshe-image" src="images/7.jpg" alt="телки" width="325" height="182">
-                        <img class="eshe-image" src="images/8.jpg" alt="банька" width="325" height="182">
-                    </div>
-                </li>
-                <li>Места для спаринга
-                    <div class="eshe-title-image">
-                        <img class="eshe-image" src="images/9.jpg" alt="ММА" width="325" height="182">
-                    </div>
-                </li>
-                <li>Бассеин
-                    <div class="eshe-title-image">
-                        <img class="eshe-image" src="images/10.jpg" alt="басик" width="325" height="182">
-                    </div>
-                </li>
-                <li>Залы для Йоги
-                    <div class="eshe-title-image">
-                        <img class="eshe-image" src="images/11.jpg" alt="йога" width="325" height="182">
-                    </div>
-                </li>
-            </ul>
+            <div class="div-eshe-dop">
+                <h2 class="eshe-title">Так же у нас вы найдете</h2>
+            </div>
+            <div class="div-eshe-dop">
+                <ul class="eshe-div-ul">
+                    <li>Сауны и бани
+                        <div class="eshe-title-image">
+                            <img class="eshe-image" src="images/7.jpg" alt="телки" width="325" height="182">
+                            <img class="eshe-image" src="images/8.jpg" alt="банька" width="325" height="182">
+                        </div>
+                    </li>
+                    <li>Места для спаринга
+                        <div class="eshe-title-image">
+                            <img class="eshe-image" src="images/9.jpg" alt="ММА" width="325" height="182">
+                        </div>
+                    </li>
+                    <li>Бассеин
+                        <div class="eshe-title-image">
+                            <img class="eshe-image" src="images/10.jpg" alt="басик" width="325" height="182">
+                        </div>
+                    </li>
+                    <li>Залы для Йоги
+                        <div class="eshe-title-image">
+                            <img class="eshe-image" src="images/11.jpg" alt="йога" width="325" height="182">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="container-tarif" id="prices">
@@ -153,26 +168,26 @@
             </form>
         </section>
 
-        <section>
-            <h2>Отзывы</h2>
+        <section class="page-otziv">
+            <h2 class="text-otziv">Отзывы</h2>
             <figure>
                 <Div class="div-image">
                     <img class="div-image-otziv" src="images/12.jpg" alt="отзыв" width="300" height="250">
                 </Div>
-                <figcaption>Иосиф Виссарионович</figcaption>
-                <blockquote>
+                <figcaption class="iosif">Иосиф Виссарионович</figcaption>
+                <blockquote class="otziv-podpis">
                     Прекрасный фитнес клуб, на тренировки груди тренер отвлекся и штанга упала теперь занова учусь есть 5/5
                 </blockquote>
             </figure>
 
         </section>
 
-        <aside> 
-            <h2>Наши партнеры</h2>
-            <img src="images/13.webp" alt="SportHub"width="auto"height="400">
-            <p>Качественный производитель спортивного питания</p>
-            <img src="images/14.webp" alt="StreetFit">
-            <p>Брэнд спортивной одеждый и аксессуаров</p>
+        <aside class="aside-partner"> 
+            <h2 class="aside-h2">Наши партнеры</h2>
+            <img class="SportHub" src="images/13.webp" alt="SportHub"width="auto"height="400">
+            <p class="text-sportpit">Качественный производитель спортивного питания</p>
+            <img class="StreetFit" src="images/14.webp" alt="StreetFit">
+            <p class="text-StreetFit">Брэнд спортивной одеждый и аксессуаров</p>
         </aside>
 
         <address id="contact">

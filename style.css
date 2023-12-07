@@ -9,6 +9,7 @@
 .page-body{
   font-size: 18px;
   font-weight: 350;
+  background-color: antiquewhite;
 }
 .page-header{
   background-image: url(./images/header.jpg);
@@ -20,6 +21,7 @@
   color: #fff;
   height: 350px;
   margin-bottom: -40px;
+  padding: 20px 0;
 }
 .navbar{
   font-size: 16px;
@@ -49,6 +51,7 @@
   text-shadow: 2px 2px 4px rgb(207, 38, 38);
   text-align: center;
   background-color: rgb(224, 159, 9);
+  margin: 0;
 }
 
 .home-div {
@@ -61,40 +64,87 @@
   object-fit: cover;
 }
 
+.intro-text-wrapper p {
+background-color: aqua;
+}
+
+.intro-text-wrapper p:not(:last-child) {
+  margin-bottom: 2px;
+}
+
 #trenajor{
   background-image: linear-gradient(90deg, #fff 50%, #242424 50%);
 }
 
+.trenajor-title {
+  margin: 0;
+  margin-bottom: 30px;
+  background-color: aquamarine;
+}
+
+.trenajor-text-wrapper p {
+  margin: 0;
+  background-color: brown;
+}
+.trenajor-text-wrapper p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.trenajor-li {
+  background-color: chartreuse;
+}
+
 .trenajor-div {
   overflow: hidden;
+  background-color: blueviolet;
 }
 
 .trenajor-div-image {
   object-fit: cover;
+ padding-right: 20px;
+ padding-left: 10px;
+  background-color: hotpink;
 }
 
 .eshe-dop {
-  content: ();
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 9999px;
+  background-color: greenyellow;
+}
+
+.div-eshe-dop {
+  display: flex;
+  justify-content: center;
+}
+
+.eshe-div-ul {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .eshe-title{
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 350px;
+  background-color: darkorange;
 }
+
 
 .eshe-title-image {
  overflow: hidden;
+ width: 100%;
+ background-color: fuchsia;
+ margin-left: 2fr;
+ margin-right: 2fr;
+ padding-left: 3fr;
+ padding-right: 2fr;
+ border: 2px solid #242424;
 }
 
 .eshe-image {
  object-fit: cover;
- padding-right: 60px;
- padding-left: 50px;
+ padding-right: 30px;
+ padding-left: 20px;
+ background-color: cyan;
+ margin-left: 10px;
+ margin-right: 20px;
 }
 
 .page-dop{
@@ -104,46 +154,92 @@
 .container-tarif{
   font-size: 18px;
   font-weight: 320;
+  background-color: forestgreen;
 }
 .sub-heading{
   font-size: 19px;
   font-weight: 310;
+  background-color: dodgerblue;
 }
 .text-tarif{
   font-size: 25px;
   font-weight: 410;
+  background-color: purple;
 }
 #zapis{
   font-size: 20px;
   font-weight: 200;
+  background-color: mediumslateblue;
+}
+
+.page-otziv {
+  background-color: darkgoldenrod;
+}
+
+.text-otziv {
+  background-color: hotpink;
 }
 
 .div-image{
   overflow: hidden;
+  background-color: lawngreen;
 }
 
 .div-image-otziv {
   border-radius: 45%;
   object-fit: cover;
+  background-color: navy;
+ padding-right: 60px;
+ padding-left: 50px;
 }
 
-.page-otziv{
-  font-size: 20px;
-  font-weight: 150;
+.iosif {
+  background-color: yellow;
 }
-.page-partner{
-  font-size: 18px;
-  font-weight: 100;
+
+.otziv-podpis {
+  background-color: rgb(60, 52, 10);
 }
+
+.aside-partner {
+  background-color: darkmagenta;
+}
+
+.aside-h2 {
+  background-color: blue;
+}
+
+.SportHub {
+  background-color: orange;
+}
+
+.text-sportpit {
+  background-color: mediumspringgreen;
+}
+
+.StreetFit {
+  background-color:rgb(207, 38, 38);
+}
+
+.text-StreetFit {
+  background-color: indigo;
+}
+
 #contact{
   font: inherit;
+  background-color: coral;
 }
 
 .page-footer {
   text-align:center;
   font-size: 26px;
+  background-color: fuchsia;
 }
 
 .container {
   width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  background-color: aqua;
 }
